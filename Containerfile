@@ -38,6 +38,6 @@ COPY --from=builder /app/target/x86_64-unknown-linux-musl/release/hello /app/hel
 WORKDIR /app
 VOLUME /config
 
-CMD ["./conf_reloader"]
+CMD ["./hello"]
 
 
