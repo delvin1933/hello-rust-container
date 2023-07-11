@@ -1,0 +1,9 @@
+# action.yml
+name: 'Hello World'
+description: 'Greet the world'
+outputs:
+  text: # id of output
+    description: 'a message'
+runs:
+  using: 'docker'
+  image: 'Containerfile'
